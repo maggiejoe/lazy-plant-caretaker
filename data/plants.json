@@ -2,6 +2,312 @@
     "plants": [
         {
             "id": "0",
+            "name": "Pothos",
+            "lightingCondition": "low",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "1",
+            "name": "ZZ Plant",
+            "lightingCondition": "low",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "2",
+            "name": "Monstera",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "MediumAttention"
+        },
+        {
+            "id": "3",
+            "name": "Pilea",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "MediumAttention"
+        },
+        {
+            "id": "4",
+            "name": "Brazil Philodendron",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "5",
+            "name": "Pink Princess",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "mediumAttention"
+        },
+        {
+            "id": "6",
+            "name": "Snake Plant",
+            "lightingCondition": "low",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "7",
+            "name": "Spider Plant",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "8",
+            "name": "Fiddle Leaf Fig",
+            "lightingCondition": "direct",
+            "careLevel": "mediumAttention"
+        },
+        {
+            "id": "9",
+            "name": "String of Pearls",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "10",
+            "name": "String of Bananas",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "11",
+            "name": "String of Turtles",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "12",
+            "name": "Prayer Plant",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "13",
+            "name": "Rubber Tree",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "14",
+            "name": "Air Plants",
+            "lightingCondition": "bright",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "15",
+            "name": "Peach Lily",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "16",
+            "name": "Begonia",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "17",
+            "name": "Chinese Evergreen",
+            "lightingCondition": "low",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "18",
+            "name": "English Ivy",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "19",
+            "name": "Calathea",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "20",
+            "name": "Swiss Cheese Plant",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "mediumAttention"
+        },
+        {
+            "id": "21",
+            "name": "Money Tree",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },        
+        {
+            "id": "22",
+            "name": "Heartleaf Philodendron",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "mediumAttention"
+        },
+        {
+            "id": "23",
+            "name": "Watermelon Peperomia",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "24",
+            "name": "Hoya Kerrii",
+            "lightingCondition": "direct",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "25",
+            "name": "Hope Peperomia",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "26",
+            "name": "Hoya Compacta",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "27",
+            "name": "Silver Philodendron",
+            "lightingCondition": "brightIndirect",
+            "careLevel": "lowAttention"
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
+            "name": "",
+            "lightingCondition": "",
+            "careLevel": ""
+        },
+        {
+            "id": "",
             "name": "",
             "lightingCondition": "",
             "careLevel": ""
