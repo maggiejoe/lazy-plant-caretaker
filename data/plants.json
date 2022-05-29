@@ -3,314 +3,308 @@
         {
             "id": "0",
             "name": "Pothos",
-            "lightingCondition": "low",
-            "careLevel": "lowAttention"
+            "sunExposure": "2",
+            "careLevel": "1"
         },
         {
             "id": "1",
             "name": "ZZ Plant",
-            "lightingCondition": "low",
-            "careLevel": "lowAttention"
+            "sunExposure": "2",
+            "careLevel": "1"
         },
         {
             "id": "2",
             "name": "Monstera",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "MediumAttention"
+            "sunExposure": "4",
+            "careLevel": "2"
         },
         {
             "id": "3",
             "name": "Pilea",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "MediumAttention"
+            "sunExposure": "3",
+            "careLevel": "2"
         },
         {
             "id": "4",
             "name": "Brazil Philodendron",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "3",
+            "careLevel": "1"
         },
         {
             "id": "5",
             "name": "Pink Princess",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "mediumAttention"
+            "sunExposure": "4",
+            "careLevel": "2"
         },
         {
             "id": "6",
             "name": "Snake Plant",
-            "lightingCondition": "low",
-            "careLevel": "lowAttention"
+            "sunExposure": "low",
+            "careLevel": "1"
         },
         {
             "id": "7",
             "name": "Spider Plant",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "4",
+            "careLevel": "1"
         },
         {
             "id": "8",
             "name": "Fiddle Leaf Fig",
-            "lightingCondition": "direct",
-            "careLevel": "mediumAttention"
+            "sunExposure": "5",
+            "careLevel": "2"
         },
         {
             "id": "9",
             "name": "String of Pearls",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "3",
+            "careLevel": "1"
         },
         {
             "id": "10",
             "name": "String of Bananas",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "3",
+            "careLevel": "1"
         },
         {
             "id": "11",
             "name": "String of Turtles",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "3",
+            "careLevel": "1"
         },
         {
             "id": "12",
             "name": "Prayer Plant",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "4",
+            "careLevel": "1"
         },
         {
             "id": "13",
             "name": "Rubber Tree",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "4",
+            "careLevel": "1"
         },
         {
             "id": "14",
             "name": "Air Plants",
-            "lightingCondition": "bright",
-            "careLevel": "lowAttention"
+            "sunExposure": "5",
+            "careLevel": "1"
         },
         {
             "id": "15",
             "name": "Peach Lily",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "3",
+            "careLevel": "1"
         },
         {
             "id": "16",
             "name": "Begonia",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "4",
+            "careLevel": "1"
         },
         {
             "id": "17",
             "name": "Chinese Evergreen",
-            "lightingCondition": "low",
-            "careLevel": "lowAttention"
+            "sunExposure": "2",
+            "careLevel": "1"
         },
         {
             "id": "18",
             "name": "English Ivy",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "4",
+            "careLevel": "1"
         },
         {
             "id": "19",
             "name": "Calathea",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "3",
+            "careLevel": "1"
         },
         {
             "id": "20",
             "name": "Swiss Cheese Plant",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "mediumAttention"
+            "sunExposure": "4",
+            "careLevel": "2"
         },
         {
             "id": "21",
             "name": "Money Tree",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "4",
+            "careLevel": "1"
         },        
         {
             "id": "22",
             "name": "Heartleaf Philodendron",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "mediumAttention"
+            "sunExposure": "3",
+            "careLevel": "2"
         },
         {
             "id": "23",
             "name": "Watermelon Peperomia",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "3",
+            "careLevel": "1"
         },
         {
             "id": "24",
             "name": "Hoya Kerrii",
-            "lightingCondition": "direct",
-            "careLevel": "lowAttention"
+            "sunExposure": "5",
+            "careLevel": "1"
         },
         {
             "id": "25",
             "name": "Hope Peperomia",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "3",
+            "careLevel": "1"
         },
         {
             "id": "26",
             "name": "Hoya Compacta",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "4",
+            "careLevel": "1"
         },
         {
             "id": "27",
             "name": "Silver Philodendron",
-            "lightingCondition": "brightIndirect",
-            "careLevel": "lowAttention"
+            "sunExposure": "3",
+            "careLevel": "1"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "28",
+            "name": "Silver Sword Philodendron",
+            "sunExposure": "4",
+            "careLevel": "3"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "29",
+            "name": "Birds of Paradise",
+            "sunExposure": "4",
+            "careLevel": "1"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "30",
+            "name": "Aleo Vera",
+            "sunExposure": "5",
+            "careLevel": "1"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "31",
+            "name": "Maiden Hair Fern",
+            "sunExposure": "4",
+            "careLevel": "1"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "32",
+            "name": "Christmas Cactus",
+            "sunExposure": "4",
+            "careLevel": "1"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "33",
+            "name": "Dracaena Corn Plant",
+            "sunExposure": "3",
+            "careLevel": "2"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "34",
+            "name": "Majesty Palm",
+            "sunExposure": "4",
+            "careLevel": "1"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "35",
+            "name": "Rattlesnake Plant",
+            "sunExposure": "4",
+            "careLevel": "1"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "36",
+            "name": "Green Velvet Alocasia",
+            "sunExposure": "4",
+            "careLevel": "3"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "37",
+            "name": "Elephant Ears",
+            "sunExposure": "4",
+            "careLevel": "1"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "38",
+            "name": "Croton",
+            "sunExposure": "3",
+            "careLevel": "1"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "39",
+            "name": "Parlor Palm",
+            "sunExposure": "4",
+            "careLevel": "1"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "40",
+            "name": "Wandering Jew",
+            "sunExposure": "3",
+            "careLevel": "2"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "41",
+            "name": "Bunny Ear Cactus",
+            "sunExposure": "6",
+            "careLevel": "2"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "42",
+            "name": "Balloon Cactus",
+            "sunExposure": "6",
+            "careLevel": "2"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "43",
+            "name": "Lady Finger Cactus",
+            "sunExposure": "6",
+            "careLevel": "2"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "44",
+            "name": "Barrel Cactus",
+            "sunExposure": "6",
+            "careLevel": "2"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "45",
+            "name": "African Milk Tree",
+            "sunExposure": "4",
+            "careLevel": "2"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "46",
+            "name": "Jade Plant",
+            "sunExposure": "4",
+            "careLevel": "1"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "47",
+            "name": "Dragon Tree",
+            "sunExposure": "3",
+            "careLevel": "1"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "48",
+            "name": "Sweetheart Hoya",
+            "sunExposure": "5",
+            "careLevel": "2"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "49",
+            "name": "Anthurium",
+            "sunExposure": "3",
+            "careLevel": "1"
         },
         {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
-        },
-        {
-            "id": "",
-            "name": "",
-            "lightingCondition": "",
-            "careLevel": ""
+            "id": "50",
+            "name": "Donkey's Tail",
+            "sunExposure": "5",
+            "careLevel": "1"
         }
     ]
 }
