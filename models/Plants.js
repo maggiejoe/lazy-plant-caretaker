@@ -24,6 +24,10 @@ Plants.init(
             type: DataTypes.STRING,
             allowNull: false
         },
+        watering_schedule: {
+            type: DataTypes.STRING,
+            allowNull: false
+        },
         description: {
             type: DataTypes.STRING,
             allowNull: false
