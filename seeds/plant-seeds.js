@@ -2,7 +2,7 @@ const { Plants } = require('../models');
 
 const plantData = [
     {
-        plant_name: '',
+        plant_name: 'Pothos',
         care_level: '',
         sun_exposure: '',
         description: ''
