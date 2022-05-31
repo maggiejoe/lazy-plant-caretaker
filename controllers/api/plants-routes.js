@@ -15,7 +15,8 @@ router.get('/:id', (req, res) => {
   Plants.findOne({
     where: {
       id: req.params.id
-    }
+    },
+    include: [ Comment ]
   })
     .then(dbUserData => {
       if (!dbUserData) {
