@@ -31,4 +31,27 @@ router.get('/:id', (req, res) => {
     });
 });
 
+// Find plant based off of specific criteria
+// Not working yet
+router.get('/plants', (req, res) => {
+  Plants.findOne({
+    where: {
+      sun_exposure: req.query.sun_exposure,
+      care_level: req.query.care_level
+    },
+    include: [ Comment ]
+  })
+  .then(dbUserData => {
+    if (!dbUserData) {
+      res.status(404).json({ message: 'No plants were found with this criteria' });
+      return;
+    }
+    res.json(dbUserData);
+  })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });
+})
+
 module.exports = router;
