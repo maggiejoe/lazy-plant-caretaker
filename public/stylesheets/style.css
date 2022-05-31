@@ -6,7 +6,7 @@ body, html {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Tenali Ramakrishna';
+  font-family: 'ELEGANCE';
   color: #333;
   
 }
@@ -14,20 +14,20 @@ body, html {
 
 a {
   text-decoration: none;
-  color: #00b3b3;
+  color: #d4be8e;
   font-weight: bold;
   transition: color .1s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: #b0b302;
 }
 
 button {
-  background-color: #49cc28;
+  background-color: #14361d;
   border: 0;
   padding: 1%;
-  color: white;
+  color: #d4be8e;
   font-weight: bold;
   transition: background-color .1s;
   cursor: pointer;
@@ -35,7 +35,7 @@ button {
 }
 
 button:hover {
-  background-color: #9db5d3;
+  background-color: #389451;
 }
 
 .post-list {
@@ -95,12 +95,13 @@ main {
 }
 
 .btn-no-style {
+  font-family: 'ELEGANCE';
   background: none;
   border: none;
   padding: 10;
   cursor: pointer;
   text-decoration: none;
-  color: #00b3b3;
+  color: #d4be8e;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
@@ -109,7 +110,7 @@ main {
 
 .btn-no-style:hover {
   background: none;
-  color: #3486eb;
+  color: #b0b302;
 }
 
 .delete-post-btn {
