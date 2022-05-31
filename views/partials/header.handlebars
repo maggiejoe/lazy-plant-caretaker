@@ -1,0 +1,25 @@
+<nav class="navbar">
+    <div class="nav-left">
+        <a href="/"><img src="" alt="Logo"></a>
+    </div>
+    <div class="nav-right">
+        {{#if loggedIn}}
+        <a href="/dashboard">Dashboard</a>
+        <button id="logout" class="btn-no-style"><a href="/homepage">Logout</a></button>
+        {{else}}
+        <a href="/login">login</a>
+        <a href="/login">Sign Up</a>
+        {{/if}}
+    </div>
+</nav>
+
+
+<!-- 
+    {{#if loggedIn}}
+    <a href="/dashboard">Dashboard</a>
+    <button id="logout" class="btn-no-style">logout</button>
+    {{else}}
+    <a href="/login">login</a>
+    {{/if}}
+-->
+    
