@@ -1,6 +1,7 @@
 // import all models
 const Comment = require('./Comment');
 const User = require('./User');
+const Plants = require('./Plants')
 
 // create associations
 User.hasMany(Comment, {
@@ -12,4 +13,12 @@ Comment.belongsTo(User, {
     onDelete: 'SET NULL'
 });
 
-module.exports = { User, Comment };
+User.hasMany(Plants, {
+    foreignKey: 'user_id'
+});
+
+Plants.hasMany(Comment, {
+    foreignKey: 'comment_id'
+});
+
+module.exports = { User, Comment, Plants };
