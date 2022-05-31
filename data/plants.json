@@ -39,7 +39,7 @@
         {
             "id": "6",
             "name": "Snake Plant",
-            "sunExposure": "low",
+            "sunExposure": "2",
             "careLevel": "1"
         },
         {
@@ -92,7 +92,7 @@
         },
         {
             "id": "15",
-            "name": "Peach Lily",
+            "name": "Peace Lily",
             "sunExposure": "3",
             "careLevel": "1"
         },
@@ -182,13 +182,13 @@
         },
         {
             "id": "30",
-            "name": "Aleo Vera",
+            "name": "Aloe Vera",
             "sunExposure": "5",
             "careLevel": "1"
         },
         {
             "id": "31",
-            "name": "Maiden Hair Fern",
+            "name": "Maidenhair Fern",
             "sunExposure": "4",
             "careLevel": "1"
         },
