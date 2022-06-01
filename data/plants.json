@@ -1,0 +1,310 @@
+{
+    "plants": [
+        {
+            "id": "0",
+            "name": "Pothos",
+            "sunExposure": "2",
+            "careLevel": "1"
+        },
+        {
+            "id": "1",
+            "name": "ZZ Plant",
+            "sunExposure": "2",
+            "careLevel": "1"
+        },
+        {
+            "id": "2",
+            "name": "Monstera",
+            "sunExposure": "4",
+            "careLevel": "2"
+        },
+        {
+            "id": "3",
+            "name": "Pilea",
+            "sunExposure": "3",
+            "careLevel": "2"
+        },
+        {
+            "id": "4",
+            "name": "Brazil Philodendron",
+            "sunExposure": "3",
+            "careLevel": "1"
+        },
+        {
+            "id": "5",
+            "name": "Pink Princess",
+            "sunExposure": "4",
+            "careLevel": "2"
+        },
+        {
+            "id": "6",
+            "name": "Snake Plant",
+            "sunExposure": "2",
+            "careLevel": "1"
+        },
+        {
+            "id": "7",
+            "name": "Spider Plant",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },
+        {
+            "id": "8",
+            "name": "Fiddle Leaf Fig",
+            "sunExposure": "5",
+            "careLevel": "2"
+        },
+        {
+            "id": "9",
+            "name": "String of Pearls",
+            "sunExposure": "3",
+            "careLevel": "1"
+        },
+        {
+            "id": "10",
+            "name": "String of Bananas",
+            "sunExposure": "3",
+            "careLevel": "1"
+        },
+        {
+            "id": "11",
+            "name": "String of Turtles",
+            "sunExposure": "3",
+            "careLevel": "1"
+        },
+        {
+            "id": "12",
+            "name": "Prayer Plant",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },
+        {
+            "id": "13",
+            "name": "Rubber Tree",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },
+        {
+            "id": "14",
+            "name": "Air Plants",
+            "sunExposure": "5",
+            "careLevel": "1"
+        },
+        {
+            "id": "15",
+            "name": "Peace Lily",
+            "sunExposure": "3",
+            "careLevel": "1"
+        },
+        {
+            "id": "16",
+            "name": "Begonia",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },
+        {
+            "id": "17",
+            "name": "Chinese Evergreen",
+            "sunExposure": "2",
+            "careLevel": "1"
+        },
+        {
+            "id": "18",
+            "name": "English Ivy",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },
+        {
+            "id": "19",
+            "name": "Calathea",
+            "sunExposure": "3",
+            "careLevel": "1"
+        },
+        {
+            "id": "20",
+            "name": "Swiss Cheese Plant",
+            "sunExposure": "4",
+            "careLevel": "2"
+        },
+        {
+            "id": "21",
+            "name": "Money Tree",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },        
+        {
+            "id": "22",
+            "name": "Heartleaf Philodendron",
+            "sunExposure": "3",
+            "careLevel": "2"
+        },
+        {
+            "id": "23",
+            "name": "Watermelon Peperomia",
+            "sunExposure": "3",
+            "careLevel": "1"
+        },
+        {
+            "id": "24",
+            "name": "Hoya Kerrii",
+            "sunExposure": "5",
+            "careLevel": "1"
+        },
+        {
+            "id": "25",
+            "name": "Hope Peperomia",
+            "sunExposure": "3",
+            "careLevel": "1"
+        },
+        {
+            "id": "26",
+            "name": "Hoya Compacta",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },
+        {
+            "id": "27",
+            "name": "Silver Philodendron",
+            "sunExposure": "3",
+            "careLevel": "1"
+        },
+        {
+            "id": "28",
+            "name": "Silver Sword Philodendron",
+            "sunExposure": "4",
+            "careLevel": "3"
+        },
+        {
+            "id": "29",
+            "name": "Birds of Paradise",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },
+        {
+            "id": "30",
+            "name": "Aloe Vera",
+            "sunExposure": "5",
+            "careLevel": "1"
+        },
+        {
+            "id": "31",
+            "name": "Maidenhair Fern",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },
+        {
+            "id": "32",
+            "name": "Christmas Cactus",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },
+        {
+            "id": "33",
+            "name": "Dracaena Corn Plant",
+            "sunExposure": "3",
+            "careLevel": "2"
+        },
+        {
+            "id": "34",
+            "name": "Majesty Palm",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },
+        {
+            "id": "35",
+            "name": "Rattlesnake Plant",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },
+        {
+            "id": "36",
+            "name": "Green Velvet Alocasia",
+            "sunExposure": "4",
+            "careLevel": "3"
+        },
+        {
+            "id": "37",
+            "name": "Elephant Ears",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },
+        {
+            "id": "38",
+            "name": "Croton",
+            "sunExposure": "3",
+            "careLevel": "1"
+        },
+        {
+            "id": "39",
+            "name": "Parlor Palm",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },
+        {
+            "id": "40",
+            "name": "Wandering Jew",
+            "sunExposure": "3",
+            "careLevel": "2"
+        },
+        {
+            "id": "41",
+            "name": "Bunny Ear Cactus",
+            "sunExposure": "6",
+            "careLevel": "2"
+        },
+        {
+            "id": "42",
+            "name": "Balloon Cactus",
+            "sunExposure": "6",
+            "careLevel": "2"
+        },
+        {
+            "id": "43",
+            "name": "Lady Finger Cactus",
+            "sunExposure": "6",
+            "careLevel": "2"
+        },
+        {
+            "id": "44",
+            "name": "Barrel Cactus",
+            "sunExposure": "6",
+            "careLevel": "2"
+        },
+        {
+            "id": "45",
+            "name": "African Milk Tree",
+            "sunExposure": "4",
+            "careLevel": "2"
+        },
+        {
+            "id": "46",
+            "name": "Jade Plant",
+            "sunExposure": "4",
+            "careLevel": "1"
+        },
+        {
+            "id": "47",
+            "name": "Dragon Tree",
+            "sunExposure": "3",
+            "careLevel": "1"
+        },
+        {
+            "id": "48",
+            "name": "Sweetheart Hoya",
+            "sunExposure": "5",
+            "careLevel": "2"
+        },
+        {
+            "id": "49",
+            "name": "Anthurium",
+            "sunExposure": "3",
+            "careLevel": "1"
+        },
+        {
+            "id": "50",
+            "name": "Donkey's Tail",
+            "sunExposure": "5",
+            "careLevel": "1"
+        }
+    ]
+}

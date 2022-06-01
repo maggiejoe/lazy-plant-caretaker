@@ -2,14 +2,15 @@ const { Model, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
 
-//Create User Model
+// create our User model
 class User extends Model {
+  // set up method to run on instance data (per user) to check password
   checkPassword(loginPw) {
     return bcrypt.compareSync(loginPw, this.password);
   }
 }
 
-//Create cols for user model
+// create fields/columns for User model
 User.init(
   {
     id: {
@@ -36,12 +37,15 @@ User.init(
       validate: {
         len: [4]
       }
-    }
+    }, 
+    favorite_plants: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
   },
   {
     hooks: {
-      
-// set up beforeCreate lifecycle "hook" functionality
+      // set up beforeCreate lifecycle "hook" functionality
       async beforeCreate(newUserData) {
         newUserData.password = await bcrypt.hash(newUserData.password, 10);
         return newUserData;
