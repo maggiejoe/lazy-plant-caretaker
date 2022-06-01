@@ -11,32 +11,14 @@ router.get('/', (req, res) => {
     });
 });
 
-router.get('/:id', (req, res) => {
-  Plants.findOne({
-    where: {
-      id: req.params.id
-    },
-    include: [ Comment ]
-  })
-    .then(dbUserData => {
-      if (!dbUserData) {
-        res.status(404).json({ message: 'No plant found with this id' });
-        return;
-      }
-      res.json(dbUserData);
-    })
-    .catch(err => {
-      console.log(err);
-      res.status(500).json(err);
-    });
-});
-
 // Find plant based off of specific criteria
-// Not working yet
-router.get('/plants', (req, res) => {
-  Plants.findOne({
+router.get('/query', (req, res) => {
+  console.log(req.query);
+  Plants.findAll({
+    where:{
       sun_exposure: req.query.sun_exposure,
       care_level: req.query.care_level
+    }
   })
   .then(dbUserData => {
     if (!dbUserData) {
@@ -50,5 +32,26 @@ router.get('/plants', (req, res) => {
     res.status(500).json(err);
   });
 })
+
+
+router.get('/:id', (req, res) => {
+  Plants.findOne({
+    where: {
+      id: req.params.id
+    },
+    include: [Comment]
+  })
+    .then(dbUserData => {
+      if (!dbUserData) {
+        res.status(404).json({ message: 'No plant found with this id' });
+        return;
+      }
+      res.json(dbUserData);
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+    });
+});
 
 module.exports = router;
