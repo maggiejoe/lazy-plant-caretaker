@@ -7,11 +7,11 @@ router.get('/', async (req, res) => {
 
 router.get('/dashboard', async (req, res) => {
   // show dashboard if logged in, otherwise, redirect to login page
-  if (req.session.loggedIn) {
+  // if (req.session.loggedIn) {
     res.render('dashboard');
-    return;
-  }
-  res.redirect('/login');
+    // return;
+  // }
+  // res.redirect('/login');
 });
 
 router.get('/login', (req, res) => {
@@ -22,6 +22,10 @@ router.get('/login', (req, res) => {
   }
 
   res.render('login');
+});
+
+router.get('/results', async (req, res) => {
+  res.render('results');
 });
 
 module.exports = router;
