@@ -2,32 +2,22 @@
   <div class="result-title">
     <h1>Here Are The Perfect Plants For You!</h1>
   </div>
+  {{#each plantData}}
+    <div class="plant-results">
+      <h4>{{plant_name}}</h4>
+      <p>{{description}}</p>
+      <br />
+      <button id="savePlant" type="button" class="btn btn-success">Save This
+        Plant</button>
+    </div>
+  {{/each}}
+</section>
+
+<!--
+<section id="search-results">
+  <h1 class="result-title">Here Are The Perfect Plants For You!</h1>
   <div class="plant-results">
-    <img class="plants" src="" alt="" />
-    <h4>Plant Title Here</h4>
-    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-      suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-      vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-      molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-      pariatur?"</p>
-    <br />
-    <button id="savePlant" type="button" class="btn btn-success"><a href="">Save
-        Plant</a></button>
-  </div>
-  <div class="plant-results">
-    <img class="plants" src="" alt="" />
-    <h4>Plant Title Here</h4>
-    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-      suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-      vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-      molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-      pariatur?"</p>
-    <br />
-    <button id="savePlant" type="button" class="btn btn-success"><a href="">Save
-        Plant</a></button>
-  </div>
-  <div class="plant-results">
-    <img class="plants" src="" alt="" />
+    <img class="plants" src="" alt="IMG" />
     <h4>Plant Title Here</h4>
     <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
       suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
@@ -39,3 +29,4 @@
         Plant</a></button>
   </div>
 </section>
+-->
