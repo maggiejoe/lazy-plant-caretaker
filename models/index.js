@@ -8,9 +8,8 @@ User.hasMany(Comment, {
     foreignKey: 'user_id'
 });
 
-Plants.belongsTo(User, {
-    foreignKey: 'user_id',
-    onDelete: 'CASCADE'
+User.hasMany(Plants, {
+    foreignKey: 'user_id'
 });
 
 Comment.belongsTo(User, {

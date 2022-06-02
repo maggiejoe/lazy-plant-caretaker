@@ -41,6 +41,10 @@ User.init(
     favorite_plants: {
       type: DataTypes.INTEGER,
       allowNull: true,
+      references: {
+        model: 'plants',
+        key: 'id'
+      }
     },
   },
   {
