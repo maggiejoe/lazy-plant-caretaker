@@ -1,0 +1,184 @@
+/* ------------------------------    GENERAL    ---------------------------------*/
+
+body {
+  background-color: #e0e4d4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #023016;
+}
+
+p {
+  color: #282b35;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+footer {
+  padding-top: 30px;
+}
+
+/* ------------------------------    LOGIN    ---------------------------------*/
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+/* ------------------------------    HOMEPAGE    ---------------------------------*/
+
+/* HERO SECTION */
+
+.hero {
+  min-height: 400px;
+  padding-bottom: 50px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero-content {
+  padding-right: 150px;
+}
+
+.hero-content p {
+  margin-right: 100px;
+}
+
+.hero .hero-img {
+  max-width: 400px;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ARTICLES SECTION */
+
+.articles,
+h1 {
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.article-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 0 50px;
+  align-items: center;
+}
+
+.card-img-top {
+  height: 250px;
+}
+/* CAll TO ACTION SECTION */
+
+.callAction {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 150px;
+  background-image: url("https://images.pexels.com/photos/2409038/pexels-photo-2409038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+.callActionTitle {
+  margin-right: 200px;
+}
+
+.callActionTitle,
+h3,
+p {
+  color: white;
+}
+
+.call {
+  align-items: center;
+  padding: 100px;
+}
+
+/* ------------------------------    DASHBOARD    ---------------------------------*/
+
+/* FORM SECTION */
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 40px 40px;
+  height: 500px;
+}
+
+.form {
+  margin: 20px 150px;
+}
+
+.form-group {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.choose button {
+  margin-top: 30px;
+}
+
+img {
+  height: 400px;
+}
+
+/* TIPS SECTION */
+
+.tips,
+h1 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.tip-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  align-items: center;
+  margin: 50px;
+}
+
+.card-img-top {
+  height: 250px;
+}
+
+/* ------------------------------    RESULTS    ---------------------------------*/
+
+#search-results {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.result-title {
+  padding-bottom: 20px;
+}
+
+.plant-results {
+  padding: 10px 0px;
+}

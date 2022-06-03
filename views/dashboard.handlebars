@@ -1,53 +1,101 @@
 <section class="search">
+  <div class="form">
     <h1>Find Your Plant!</h1>
-    <p>Use the form below to find out what plant is the best for you</p>
+    <p>Use the form below to find out what plant is the best for you.. Don't
+      worry, we won't judge you!
+    </p>
     <div class="choose">
-        <form>
-            <div class="row">
-                <div class="col">
-                    <label for="inputLighting">What type of lightning do you have?</label>
-                    <select id="inputLighting" class="form-control">
-                        <option selected>Choose Lighting</option>
-                        <option>Low Light</option>
-                        <option>Med Light</option>
-                        <option>High Light</option>
-                </div>
-                <div class="col">
-                    <label for="inputLazy">How Lazy Are You Feeling></label>
-                    <select id="inputLazy" class="form-control">
-                        <option selected>Choose Laziness Level</option>
-                        <option>Not Lazy!</option>
-                        <option>Sometimes Lazy</option>
-                        <option>Super Lazy</option>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Show Me The Plants!</button>
-        </form>
+      <form action="">
+        <div class="form-group">
+          <select
+            class="form-select"
+            aria-label="Default select example"
+            required
+          >
+            <option selected>What type of sun exposure do you have?</option>
+            <option name="sun_exposure" value="1">Low Light</option>
+            <option name="sun_exposure" value="2">Medium Light</option>
+            <option name="sun_exposure" value="3">High Light</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <select
+            class="form-select"
+            aria-label="Default select example"
+            required
+          >
+            <option selected>What is you laziness level?</option>
+            <option name="care_level" value="1">Very Lazy</option>
+            <option name="care_level" value="2">Somewhat Lazy</option>
+            <option name="care_level" value="3">Not Lazy At All!</option>
+          </select>
+        </div>
+      </form>
+      <a href="/results"><button
+          type="submit"
+          class="btn btn-lg btn-success"
+        >Show Me The Plants!</button></a>
     </div>
+  </div>
+  <div class="form-img">
+    <img
+      src="https://images.pexels.com/photos/793012/pexels-photo-793012.jpeg?cs=srgb&dl=pexels-min-an-793012.jpg&fm=jpg"
+      alt=""
+    />
+  </div>
 </section>
-<section class="history">
+
+<section class="tips">
+  <h1>Looking For Tips? Check These Out</h1>
+  <div class="tip-content">
     <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+      <img
+        class="card-img-top"
+        src="https://bloomscape.com/wp-content/uploads/2019/04/bloomscape_peopleplant_monstera-3_uncropped-e1582219163767-324x389.jpg?ver=136513"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">7 Of The Easiest Houseplants To Grow In Any Space</h5>
+        <p class="card-text">Are you interested in getting started with indoor
+          plants but aren’t sure where to start?</p>
+        <a
+          href="https://bloomscape.com/plant-care/7-of-the-easiest-houseplants-to-grow-in-any-space/"
+          class="btn btn-success"
+        >Read More</a>
+      </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+      <img
+        class="card-img-top"
+        src="https://bloomscape.com/wp-content/uploads/2020/05/bloomscape_indoor-outdoor_4-1024x682.jpg?ver=217611"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">What To Consider Before Moving Your Indoor Plants
+          Outside For The Summer</h5>
+        <p class="card-text">You aren’t the only one who loves the balmy temps
+          and sunny days of summer weather—your plants do, too! The Grow-How™</p>
+        <a
+          href="https://bloomscape.com/plant-care/moving-your-indoor-plants-outside-for-the-summer/"
+          class="btn btn-success"
+        >Read More</a>
+      </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
+      <img
+        class="card-img-top"
+        src="https://bloomscape.com/wp-content/uploads/2019/04/fertilizing-main-image-1024x683.jpg?ver=23701"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h5 class="card-title">How to Fertilize Your Plants</h5>
+        <p class="card-text">Fertilize your indoor plants in the spring and
+          summer to promote growth and to give your plant a little boost. It is
+          best to fertilize during this time when your plant is in its natural
+          growth phase.
+        </p>
+        <a href="#" class="btn btn-success">Read More</a>
+      </div>
     </div>
+  </div>
 </section>
