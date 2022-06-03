@@ -1,4 +1,4 @@
-function signupFormHandler(event) {
+async function signupFormHandler(event) {
     event.preventDefault();
 
     const username = document.querySelector('#username-signup').ariaValueMax.trim();
@@ -6,7 +6,7 @@ function signupFormHandler(event) {
     const password = document.querySelector('#password-signup').value.trim();
 
     if (username && email && password) {
-        fetch('api/users', {
+        const response = await fetch('api/users', {
             method: 'post',
             body: JSON.stringify({
                 username,
@@ -17,7 +17,7 @@ function signupFormHandler(event) {
         });
 
         if (response.ok) {
-            document.location.replace('/dashboard/');
+            console.log('success')
         } else {
             alert(response.statusText);
         }
