@@ -1,7 +1,7 @@
 # Lazy Plant Caretaker: Indoor Plant Care Guide
 ### We will help you take care of your plants!
 
-![Lazy-Plant-Caretaker-Logo](./public/assets/images/The_lazy_plant_caretaker_1.png)
+![Lazy-Plant-Caretaker-Logo](./public/assets/images/logo)
 
 ## Contributors
 
