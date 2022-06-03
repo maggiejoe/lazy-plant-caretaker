@@ -25,6 +25,7 @@ router.get('/login', (req, res) => {
 });
 
 router.get('/results', async (req, res) => {
+  
   res.render('results');
 });
 
