@@ -1,4 +1,5 @@
 const router = require('express').Router();
+// const sequelize = require('../config/connection');
 const { Plants, User, Comment } = require('../models');
 
 router.get('/', async (req, res) => {
@@ -25,7 +26,7 @@ router.get('/login', (req, res) => {
 });
 
 router.get('/results', async (req, res) => {
-  
+  // need to link js file to this on how to display queried data
   res.render('results');
 });
 
