@@ -5,10 +5,10 @@
     <div class="nav-right">
         {{#if loggedIn}}
         <a href="/dashboard">Dashboard</a>
-        <button id="logout" class="btn-no-style"><a href="/homepage">Logout</a></button>
+        <a href="/homepage"><button id="logout" type="button" class="btn btn-no-style">Logout</button></a>
         {{else}}
-        <ahref="/login"><button d="login" type="button" class="btn btn-success">Login!</button></a>
-        <ahref="/login"><button d="login" type="button" class="btn btn-outline-success">Sign Up!</button></a>
+        <a href="/login"><button d="login" type="button" class="btn btn-success">Login!</button></a>
+        <a href="/login"><button d="login" type="button" class="btn btn-outline-success">Sign Up!</button></a>
         {{/if}}
     </div>
 </nav>
