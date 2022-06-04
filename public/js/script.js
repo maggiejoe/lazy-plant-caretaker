@@ -1,19 +1,35 @@
-let resultsUrl = "https://lazy-plant-caretaker.herokuapp.com/results";
+let resultsUrl = "/results";
+var parameters = {
+    care_level: '',
+    sun_exposure: ''
+};
 
 // listen for changes in input elements
-let sunExposure;
-document.querySelector('#sunExposureOption').addEventListener('change', () => {
-    if (this.value !== '') {
-        sunExposure = this.value;
+let careLevel;
+document.querySelector('#careLevelOptions').addEventListener('change', (event) => {
+    if (event.target.value !== '') {
+        careLevel = event.target.value;
     }
+    console.log(careLevel);
+    parameters.care_level = careLevel;
 })
 
-let careLevel;
-document.querySelector('#careLevelOptions').addEventListener('change', () => {
-    if (this.value !== '') {
-        careLevel = this.value;
+let sunExposure;
+document.querySelector('#sunExposureOptions').addEventListener('change', (event) => {
+    if (event.target.value !== '') {
+        sunExposure = event.target.value;
     }
+    console.log(sunExposure);
+    parameters.sun_exposure = sunExposure;
 })
+
+function searchFunction(event) {
+    event.preventDefault();
+    console.log("Show me the plants");
+    console.log(sunExposure, careLevel);
+
+    buildUrl(resultsUrl, parameters)
+};
 
 function buildUrl(url, parameters) {
     var qs = "";
@@ -25,12 +41,7 @@ function buildUrl(url, parameters) {
         qs = qs.substring(0, qs.length - 1); //chop off last "&"
         url = resultsUrl + "?" + qs;
     }
-    return url;
+    location.href = url;
 };
 
-var parameters = {
-    sunExposure: sunExposure,
-    careLevel: careLevel
-};
-
-document.querySelector('#show-results').addEventListener('submit', searchFunction);
+document.querySelector('#show-results').addEventListener('click', searchFunction);
