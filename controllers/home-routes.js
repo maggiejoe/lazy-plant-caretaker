@@ -34,4 +34,17 @@ router.get('/results', async (req, res) => {
   res.render('results');
 });
 
+// router.post('/logout', (req, res) => {
+//   if (req.session.loggedIn) {
+//     req.session.destroy(() => {
+//       res
+//         .status(204)
+//         .json({ message: 'You are now logged out!' })
+//         .end();
+//     });
+//   } else {
+//     res.status(400).end();
+//   }
+// });
+
 module.exports = router;
