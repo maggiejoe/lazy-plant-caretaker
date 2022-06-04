@@ -1,0 +1,45 @@
+<nav class="navbar navbar-light bg-light">
+  <div class="nav-left">
+    <a href="/homepage"><img
+        src="https://media.discordapp.net/attachments/978808186536603686/979008740391006208/The_Lazy_Plant_Caretaker.png"
+        alt="Logo"
+        width="100"
+        height="100"
+        class="d-inline-block align-top"
+      /></a>
+  </div>
+  <div class="nav-right">
+    {{#if loggedIn}}
+      <a href="/dashboard">Dashboard</a>
+      <a href="/homepage"><button
+          id="logout"
+          type="button"
+          class="btn btn-no-style"
+        >Logout</button></a>
+
+      <button id="logout" class="btn-no-style"><a
+          href="/homepage"
+        >Logout</a></button>
+    {{else}}
+      <a href="/login"><button
+          id="login"
+          type="button"
+          class="btn btn-success"
+        >Login!</button></a>
+      <a href="/login"><button
+          id="login"
+          type="button"
+          class="btn btn-outline-success"
+        >Sign Up!</button></a>
+    {{/if}}
+  </div>x
+</nav>
+
+<!-- 
+    {{#if loggedIn}}
+    <a href="/dashboard">Dashboard</a>
+    <button id="logout" class="btn-no-style">logout</button>
+    {{else}}
+    <a href="/login">login</a>
+    {{/if}}
+-->
