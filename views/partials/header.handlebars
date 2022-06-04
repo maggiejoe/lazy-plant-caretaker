@@ -1,6 +1,6 @@
 <nav class="navbar navbar-light bg-light">
   <div class="nav-left">
-    <a href="/homepage"><img
+    <a href="/"><img
         src="https://media.discordapp.net/attachments/978808186536603686/979008740391006208/The_Lazy_Plant_Caretaker.png"
         alt="Logo"
         width="100"
@@ -10,23 +10,23 @@
   </div>
   <div class="nav-right">
     {{#if loggedIn}}
-      <a href="/dashboard">Dashboard</a>
-      <a href="/homepage"><button
+      <a href="/dashboard">Dashboard<button
+      id="logout"
+      type="button"
+      class="btn btn-no-style"></button></a>
+
+      <a href="/logout"><button
           id="logout"
           type="button"
           class="btn btn-no-style"
         >Logout</button></a>
-
-      <button id="logout" class="btn-no-style"><a
-          href="/homepage"
-        >Logout</a></button>
     {{else}}
       <a href="/login"><button
           id="login"
           type="button"
           class="btn btn-success"
         >Login!</button></a>
-      <a href="/login"><button
+      <a href="/sign-up"><button
           id="login"
           type="button"
           class="btn btn-outline-success"
