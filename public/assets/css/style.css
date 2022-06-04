@@ -1,0 +1,57 @@
+/* ----------------    HOMEPAGE ----------------*/
+
+/* HERO SECTION */
+
+.hero {
+  background-color: #0151cc;
+  color: #fff;
+  min-height: 400px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero .hero-img {
+  max-width: 400px;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ARTICLES SECTION */
+
+.articles h4 {
+  text-align: center;
+}
+
+.article-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  align-items: center;
+  padding: 50px;
+}
+
+/* ARTICLES SECTION */
+
+.callAction {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 150px;
+}
+
+.call {
+  align-items: center;
+  padding: 100px;
+}
