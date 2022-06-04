@@ -9,9 +9,37 @@
     <title>Lazy Plant Caretaker</title>
   </head>
   <body>
+
     <div class="wrapper">
 
-      {{>header}}
+      <nav class="navbar navbar-light bg-light">
+        <div class="nav-left">
+          <a href="/"><img
+              src="https://media.discordapp.net/attachments/978808186536603686/979008740391006208/The_Lazy_Plant_Caretaker.png"
+              alt="Logo" width="100" height="100" class="d-inline-block align-top" /></a>
+        </div>
+        <div class="nav-right">
+          {{#if loggedIn}}
+          <a href="/dashboard">Dashboard<button id="logout" type="button" class="btn btn-no-style"></button></a>
+          <a href="/logout"><button id="logout" type="button" class="btn btn-no-style">Logout</button></a>
+
+
+          {{else}}
+          <a href="/login"><button id="login" type="button" class="btn btn-success">Login!</button></a>
+          <a href="/sign-up"><button id="login" type="button" class="btn btn-outline-success">Sign Up!</button></a>
+          {{/if}}
+        </div>
+      </nav>
+      
+      <!-- 
+          {{#if loggedIn}}
+          <a href="/dashboard">Dashboard</a>
+          <button id="logout" class="btn-no-style">logout</button>
+          {{else}}
+          <a href="/login">login</a>
+          {{/if}}
+      -->
+
 
       <main>
         {{{body}}}

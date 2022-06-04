@@ -1,41 +1,36 @@
-// let userQuery = (localStorage.getItem('userQuery'));
+let resultsUrl = "https://lazy-plant-caretaker.herokuapp.com/results";
 
-// JSON.parse(localStorage.getItem('userQuery')) ;
-// { 'sun_exposure'= '', 'care_level'= ''};
+// listen for changes in input elements
+let sunExposure;
+document.querySelector('#sunExposureOption').addEventListener('change', () => {
+    if (this.value !== '') {
+        sunExposure = this.value;
+    }
+})
 
-// // build the query
-// function buildQuery() {
-//     // store the query
-//     var query = [];
+let careLevel;
+document.querySelector('#careLevelOptions').addEventListener('change', () => {
+    if (this.value !== '') {
+        careLevel = this.value;
+    }
+})
 
-//     // loop through query objects
-//     for (var key in userQuery) {
-//         query.push(encodeURIComponent(key) + '=' + encodeURIComponent(userQuery[key]));
-//     }
+function buildUrl(url, parameters) {
+    var qs = "";
+    for (var key in parameters) {
+        var value = parameters[key];
+        qs += encodeURIComponent(key) + "=" + encodeURIComponent(value) + "&";
+    }
+    if (qs.length > 0) {
+        qs = qs.substring(0, qs.length - 1); //chop off last "&"
+        url = resultsUrl + "?" + qs;
+    }
+    return url;
+};
 
-//     let newURL = "https://lazy-plant-caretaker.herokuapp.com/results" + (query.length ? '?' + query.join('&') : '');
-//     return(newURL);
-// }
+var parameters = {
+    sunExposure: sunExposure,
+    careLevel: careLevel
+};
 
-// // listen for changes in input elements
-// let sunExposure;
-// document.querySelector('#sunExposureOption').addEventListener('change', () => {
-//     if (this.value !== '') {
-//         sunExposure = this.value;
-
-//         userQuery['sun_exposure'] = sunExposure;
-
-//         let url = buildQuery();
-//     }
-// })
-
-// let careLevel;
-// document.querySelector('#careLevelOptions').addEventListener('change', () => {
-//     if (this.value !== '') {
-//         careLevel = this.value;
-
-//         userQuery['care_level'] = careLevel
-
-//         let url = buildQuery();
-//     }
-// })
+document.querySelector('#show-results').addEventListener('submit', searchFunction);

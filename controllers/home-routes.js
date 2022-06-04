@@ -8,11 +8,11 @@ router.get('/', async (req, res) => {
 
 router.get('/dashboard', async (req, res) => {
   // show dashboard if logged in, otherwise, redirect to login page
-  if (req.session.loggedIn) {
-    res.render('dashboard');
-    return;
-  }
-  res.redirect('/login');
+  // if (req.session.loggedIn) {
+    res.render('dashboard',{loggedIn:req.session.loggedIn});
+  //   return;
+  // }
+  // res.redirect('/login');
 });
 
 router.get('/login', (req, res) => {
