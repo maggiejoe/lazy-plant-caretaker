@@ -3,7 +3,7 @@ const router = require('express').Router();
 const { Plants, User, Comment } = require('../models');
 
 router.get('/', async (req, res) => {
-  res.render('homepage');
+  res.render('homepage', { loggedIn: req.session.loggedIn });
 });
 
 router.get('/dashboard', async (req, res) => {
@@ -31,7 +31,7 @@ router.get('/sign-up', (req, res) => {
 
 router.get('/results', async (req, res) => {
   // need to link js file to this on how to display queried data
-  res.render('results');
+  res.render('results', { loggedIn: req.session.loggedIn });
 });
 
 // router.post('/logout', (req, res) => {
