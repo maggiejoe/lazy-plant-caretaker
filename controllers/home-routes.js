@@ -1,6 +1,7 @@
 const router = require('express').Router();
 // const sequelize = require('../config/connection');
 const { Plants, User, Comment } = require('../models');
+const plantData = require('../public/js/search-results');
 
 router.get('/', async (req, res) => {
   res.render('homepage', { loggedIn: req.session.loggedIn });
@@ -21,7 +22,6 @@ router.get('/login', (req, res) => {
     res.redirect('/');
     return;
   }
-
   res.render('login');
 });
 
@@ -46,18 +46,5 @@ router.get('/results', async (req, res) => {
       res.render('results', { loggedIn: req.session.loggedIn, results });
     })
 });
-
-// router.post('/logout', (req, res) => {
-//   if (req.session.loggedIn) {
-//     req.session.destroy(() => {
-//       res
-//         .status(204)
-//         .json({ message: 'You are now logged out!' })
-//         .end();
-//     });
-//   } else {
-//     res.status(400).end();
-//   }
-// });
 
 module.exports = router;
