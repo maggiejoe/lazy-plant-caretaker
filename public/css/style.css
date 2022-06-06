@@ -22,12 +22,20 @@ p {
 }
 
 .navbar {
-  padding: 10px;
   background-color: #14361d;
 }
 
+.logo-img {
+  height: 200; 
+  width: 500;
+}
+
 footer {
-  padding-top: 30px;
+  background-color: #E0E4D4;
+}
+
+.copyright {
+  background-color: #023016;
 }
 
 /* ------------------------------    LOGIN    ---------------------------------*/
@@ -52,45 +60,26 @@ footer {
 
 /* ------------------------------    DASHBOARD    ---------------------------------*/
 
-/* FORM SECTION */
 
-.search {
-  display: flex;
-  justify-content: center;
-  padding: 40px 40px;
-  height: 500px;
-}
 
-.form {
-  margin: 20px 150px;
-}
-
-.form-group {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.choose button {
-  margin-top: 30px;
-}
-
-.form-img img {
-  height: 400px;
+.form-img {
+  height: 382px;
+  width: 615px;
 }
 
 /* TIPS SECTION */
-
+/* 
 .tips,
 h1 {
   padding-top: 30px;
   text-align: center;
-}
+} */
 
-.tip-content {
+/* .tip-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 
 .card {
   align-items: center;

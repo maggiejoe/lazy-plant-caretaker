@@ -1,21 +1,18 @@
-<div>
-
-  <nav class="navbar navbar-light">
-    <div class="nav-left">
-      <img src="/images/name-logo.png"
-          alt="Logo" class="logo-img"/>
-    </div>
-    <div class="nav-right pe-5">
-      {{#if loggedIn}}
-     <button  type="button" class="btn btn-success me-3"> <a href="/dashboard">Dashboard</a></button>
-      <button id="logout" type="button" class="btn btn-outline-success btn-light">Logout</button>
+<nav class="navbar navbar-light">
+  <div class="nav-left">
+    <img src="/images/name-logo.png" alt="Logo" class="logo-img" />
+  </div>
+  <div class="nav-right pe-5">
+    {{#if loggedIn}}
+    <a href="/dashboard"><button type="button" class="btn btn-success me-3">Dashboard</button></a>
+    <a href="/"><button id="logout" type="button" class="btn btn-outline-success btn-light">Logout</button></a>
 
 
-      {{else}}
-      <a href="/login"><button id="login" type="button" class="btn btn-success me-3">Login</button></a>
-      <a href="/sign-up"><button id="login" type="button" class="btn btn-outline-success btn-light">Sign Up</button></a>
-      {{/if}}
-    </div>
-  </nav>
+    {{else}}
+    <a href="/login"><button id="login" type="button" class="btn btn-success me-3">Login</button></a>
+    <a href="/sign-up"><button id="login" type="button" class="btn btn-outline-success btn-light">Sign Up</button></a>
+    {{/if}}
+  </div>
+</nav>
 
- <script src="/js/logout.js"></script>
+<script src="/js/logout.js"></script>
