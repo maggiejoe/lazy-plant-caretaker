@@ -60,48 +60,18 @@ footer {
 
 /* ------------------------------    DASHBOARD    ---------------------------------*/
 
-
-
 .form-img {
   height: 382px;
   width: 615px;
 }
 
+/* ------------------------------    RESULTS    ---------------------------------*/
+
+
+
 /* TIPS SECTION */
-/* 
-.tips,
-h1 {
-  padding-top: 30px;
-  text-align: center;
-} */
-
-/* .tip-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-} */
-
-.card {
-  align-items: center;
-  margin: 50px;
-}
 
 .card-img-top {
   height: 250px;
 }
 
-/* ------------------------------    RESULTS    ---------------------------------*/
-
-#search-results {
-  display: flex;
-  flex-direction: column;
-  padding-top: 50px;
-  padding-left: 20px;
-}
-.result-title {
-  padding-bottom: 20px;
-}
-
-.plant-results {
-  padding: 10px 0px;
-}
