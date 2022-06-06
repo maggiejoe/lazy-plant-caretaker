@@ -1,4 +1,3 @@
-console.log('loading logout script')
 async function logout() {
     const response = await fetch('/api/users/logout', {
       method: 'post',
