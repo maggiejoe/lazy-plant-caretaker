@@ -6,7 +6,7 @@ const plantData = [
         care_level: 'Very Lazy',
         sun_exposure: 'Low Light',
         watering_schedule: 'Weekly',
-        description: 'description about Pothos',
+        description: "Pothos and its varieties, also known as 'epipremnum aureum' is an evergreen vine with thick waxy leaves. As an indoor plant, it is commonly a hanging plant but can also grow upwards with support using it's aerial roots. These beautiful plants come in many different varieties and are great in every lighting condition! Ontop of that, they're perfect for new plant parents as they're nearly impossible to kill!",
         image: 'https://www.plantandflowerinfo.com/images/pothos-marble-queen-plant.jpg'
     },
     {
@@ -14,7 +14,7 @@ const plantData = [
         care_level: 'Very Lazy',
         sun_exposure: 'Low Light',
         watering_schedule: 'Bi-Weekly',
-        description: 'description about ZZ Plants',
+        description: "The ZZ Plant, also known as ' zamioculcas zamiifolia' has become one of the most common house plants because of how tolerant it is in a wide range of conditions. It's thick waxy leaves that start a bright lime color in their youth turn an emerald green as they mature. If you're looking for a plant that needs next to no care, look no further!",
         image: 'https://www.plantandflowerinfo.com/images/zz-plant-indoor-house-plant300250.jpg'
     },
     {
@@ -22,7 +22,7 @@ const plantData = [
         care_level: 'Somewhat Lazy',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about monsteras',
+        description: "Monsteras, also known as 'monstera deliciosa' are a great addition to any home with bright indirect light. they're glossy perforated leaves add beautiful texture to any space. They're climbing plants that use aerial roots to climb whatever they're provided with. In tropical forests, they're leaves are known to get up to 35in long and 30in wide!",
         image: 'https://garden.org/pics/2019-03-21/DaylilySLP/28fe48-250.jpg'
     },
     {
@@ -30,23 +30,23 @@ const plantData = [
         care_level: 'Somewhat Lazy',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about Pileas',
+        description: "The pilea, or it's scientific name, 'pilea peperomioides' has beautiful shiny dark green circular leaves. It requires bright indirect light to grow well and in low light conditions may loose leaves. When it comes to watering, it likes its soil to be nearly dried out before it's next drink, and will always tell you when it needs water when the leaves droop and/or curl. Pilea's are great to pass along to friends and family as they're always producing new babies or pups that can be easily extracted from the soil and repotted.",
         image: 'https://garden.org/pics/2021-10-05/Leafa/4cacb4-250.jpg'
     },
     {
-        plant_name: 'Brazil Philodendron',
+        plant_name: 'Brasil Philodendron',
         care_level: 'Very Lazy',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Bi-Weekly',
-        description: 'description about Brazil Philodendrons',
+        description: "'Philodendron hederaceum' or brasil philodendron is a variety of the heartleaf philodendron known for it's lime green and deep green leaves. It is also a trailing plant that commonly hangs as an indoor plant but can be a climbing plant is given a moss pole to attach too. In order to maintain growth, this houseplant needs bright indirect light to thrive and depending on it's soil can be watered weekly to bi-weekly. This fun colorful plant would make a great addition to any space!",
         image: 'https://www.plantandflowerinfo.com/images/philodendron-silver-trailing-house-plant.jpg'
     },
     {
         plant_name: 'Pink Princess',
-        care_level: 'Somewhat Lazy',
+        care_level: 'Not Lazy At All',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about Pink Princess',
+        description: "The pink princess philodendron or 'Philodendron Erubescens' is known for it's beautifully colorful leaves. In the right conditions, it's leaves can have different shades of pink, white and green. This unique houseplant is considered more exotic as it's hard to find and can be very costly based off of the maturity you purchase it at. It's known to be more difficult to take care of and isn't recommended for new plant parents looking to start their indoor plant collection. For the more experienced plant parent, this is a great challenge plant to see if you can give it the right conditions to continue to produce those beautifully pink varigated leaves.",
         image: 'https://garden.org/pics/2021-06-17/Joy/9e1c61-250.jpg'
     },
     {
@@ -54,7 +54,7 @@ const plantData = [
         care_level: 'Very Lazy',
         sun_exposure: 'Low Light',
         watering_schedule: 'Monthly',
-        description: 'description about Spider Plants',
+        description: "Snake plants, or 'sansevieria' (a.k.a. mother-in-laws tongue) are perfect for low light to bright light conditions. Their hearty sword like leaves come in a variety of different colors and can grow over two feet tall. They are the perfect plant to put anywhere and forget about. These nearly indestructible plants need next to no water and minimal light to survive, making them perfect for your first indoor house plant.",
         image: 'https://www.plantandflowerinfo.com/images/snake-plant-in-pot.jpg'
     },
     {
@@ -62,15 +62,15 @@ const plantData = [
         care_level: 'Very Lazy',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about Spice Plants',
+        description: "'Chlorophytum comosum' or more commonly known as the spider plant, are a very popular indoor houseplant. They're beautiful leaves and different varieties make them a great addition to any space. In bright indirect light, they'll thrive in growth and product lots of babies (a.k.a. pups) what you can easily cut off and propogate to make more plants. They like to dry out inbetween waterings but you'll always know when they need a drink when they're leaves become slightly discolored.",
         image: 'https://www.plantandflowerinfo.com/images/spider-plant-on-table.jpg'
     },
     {
         plant_name: 'Fiddle Leaf Fig',
-        care_level: 'Somewhat Lazy',
+        care_level: 'Not Lazy At All',
         sun_exposure: 'Direct Light',
         watering_schedule: 'Weekly',
-        description: 'description about Fiddle Leaf Figs',
+        description: "Fiddle leaf fig plants are apart of the ficus family with a scientific name of 'ficus lyrata'. It has large violin shaped emerald green leaves that grow upright into a tall plant, resembling a tree. While it can be tricky to grow at first, if you place them infront of a brightly lit window and leave them, they will grow tall and strong for you. When it comes to watering, be sure to let the soil nearly dry out before it's next drink as it's roots do not like sitting in water. If you're looking for a unique plant to add some life to your space, the fiddle leaf fig the perfect plant for you!",
         image: 'https://garden.org/pics/2012-01-11/Paul2032/84efbf-250.jpg'
     },
     {
@@ -78,7 +78,7 @@ const plantData = [
         care_level: 'Very Lazy',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about String of Pearls',
+        description: "String of pearls, or 'senecio rowleyanus' is a beautiful hanging plant can door from anywhere on it's vine as long as it's found soil to grow into. This plant loves a high drainage soil and does not like it's roots sitting in water as it's apart of the succulent family. Because of this, it likes to let it's soil dry out inbetween waterings.  It's leaves are spherical with a subtle point at the top making them a unique addition to your houseplant collection.",
         image: 'https://garden.org/pics/2020-11-02/dnrevel/e46950-250.jpg'
     },
     {
@@ -123,8 +123,8 @@ const plantData = [
     },
     {
         plant_name: 'Peace Lily',
-        care_level: 'Very Lazy',
-        sun_exposure: 'Bright Indirect Light',
+        care_level: 'Not Lazy At All',
+        sun_exposure: 'Low Light',
         watering_schedule: 'Weekly',
         description: 'description about Peace Lilies',
         image: 'https://garden.org/pics/2020-05-09/plantladylin/70d412-250.jpg'
@@ -147,7 +147,7 @@ const plantData = [
     },
     {
         plant_name: 'English Ivy',
-        care_level: 'Very Lazy',
+        care_level: 'Somewhat Lazy',
         sun_exposure: 'Low Light',
         watering_schedule: 'Weekly',
         description: 'description about English Ivy',
@@ -355,7 +355,7 @@ const plantData = [
     },
     {
         plant_name: 'Barrel Cactus',
-        care_level: 'Somewhat Lazy',
+        care_level: 'Not Lazy At All',
         sun_exposure: 'Direct Light',
         watering_schedule: 'Monthly',
         description: 'description about  Barrel Cacti',
@@ -364,7 +364,7 @@ const plantData = [
     {
         plant_name: 'African Milk Tree',
         care_level: 'Somewhat Lazy',
-        sun_exposure: 'Bright Indirect Light',
+        sun_exposure: 'Low Light',
         watering_schedule: 'Bi-Weekly',
         description: 'description about African Milk Tree',
         image: 'https://garden.org/pics/2014-02-13/Paul2032/e228fc-250.jpg'

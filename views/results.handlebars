@@ -1,8 +1,8 @@
-<section id="container">
+<section>
   <div>
     <h1 class="text-center fw-bolder mt-5">Here Are The Perfect Plants For You!</h1>
   </div>
-  <div class="row m-5 px-3 justify-content-between">
+  <div class="row m-5 px-3 justify-content-evenly">
     {{#each results as |plant| }}
     <div class="card col-3 mb-5" id="plantCards" style="width: 25rem;">
       <div class="card-body text-center">
@@ -27,21 +27,5 @@
     {{/each}}
   </div>
 </section>
-
-{{!-- <section id="search-results">
-  <h1 class="result-title">Here Are The Perfect Plants For You!</h1>
-  <div class="plant-results">
-    <img class="plants" src="" alt="IMG" />
-    <h4>Plant Title Here</h4>
-    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-      suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
-      vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-      molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-      pariatur?"</p>
-    <br />
-
-    <button id="savePlant" type="button" class="btn btn-success">Save Plant</button>
-  </div>
-</section> --}}
 
 <script src="/js/search-results.js"></script>
