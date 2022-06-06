@@ -2,15 +2,22 @@
   <div class="result-title">
     <h1>Here Are The Perfect Plants For You!</h1>
   </div>
-  {{#each plantData}}
-    <div class="plant-results">
-      <h4>{{plant_name}}</h4>
-      <p>{{description}}</p>
-      <br />
-      <button id="savePlant" type="button" class="btn btn-success">Save This
-        Plant</button>
-    </div>
-  {{/each}}
+  <div class="row">
+    {{#each results as |plant| }}
+      <div class="card col-2 plant-results">
+        <div class="card-body">
+          <img class="card-img-top" src="{{plant.image}}" alt="Card image cap">
+          <h4 class="card-title">{{plant.plant_name}}</h4>
+          <p class="card-text">
+            Description: {{plant.description}}
+            <br>
+            Watering Schedule: {{plant.watering_schedule}}
+          </p>
+          <button id="savePlant" type="button" class="btn btn-success">Save This Plant</button>
+        </div>
+      </div>
+    {{/each}}
+  </div>
 </section>
 
 {{!-- <section id="search-results">

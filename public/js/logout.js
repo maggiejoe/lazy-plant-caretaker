@@ -1,4 +1,3 @@
-console.log('loading logout script')
 async function logout() {
   console.log('testing logout');
     const response = await fetch('/api/users/logout', {

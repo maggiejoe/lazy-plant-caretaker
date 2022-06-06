@@ -4,7 +4,7 @@ const { Plants, User, Comment } = require('../../models');
 // get all users
 router.get('/', (req, res) => {
   Plants.findAll({})
-    .then(dbUserData => res.json(dbUserData))
+    .then(plantData => res.json(plantData))
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
@@ -20,12 +20,12 @@ router.get('/query', (req, res) => {
       care_level: req.query.care_level
     }
   })
-  .then(dbUserData => {
-    if (!dbUserData) {
+  .then(plantData => {
+    if (!plantData) {
       res.status(404).json({ message: 'No plants were found with this criteria' });
       return;
     }
-    res.json(dbUserData);
+    res.json(plantData);
   })
   .catch(err => {
     console.log(err);
@@ -41,12 +41,12 @@ router.get('/:id', (req, res) => {
     },
     include: [Comment]
   })
-    .then(dbUserData => {
-      if (!dbUserData) {
+    .then(plantData => {
+      if (!plantData) {
         res.status(404).json({ message: 'No plant found with this id' });
         return;
       }
-      res.json(dbUserData);
+      res.json(plantData);
     })
     .catch(err => {
       console.log(err);
