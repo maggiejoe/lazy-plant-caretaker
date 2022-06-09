@@ -6,7 +6,7 @@ class Plants extends Model {}
 
 Plants.init(
     {
-        id: {
+        plant_id: {
             type: DataTypes.INTEGER,
             allowNull: false,
             primaryKey: true,
@@ -29,13 +29,20 @@ Plants.init(
             allowNull: false
         },
         description: {
-            type: DataTypes.STRING,
+            type: DataTypes.STRING(1024),
             allowNull: false
         },
         image: {
             type: DataTypes.STRING,
             allowNull: false
-        }
+        }, 
+        favorites_id: {
+            type: DataTypes.INTEGER,
+            references: {
+                model: 'favorites',
+                key: 'favorite_id'
+            }
+        },
     },
     {
         sequelize,

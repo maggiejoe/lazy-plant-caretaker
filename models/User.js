@@ -13,7 +13,7 @@ class User extends Model {
 // create fields/columns for User model
 User.init(
   {
-    id: {
+    user_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
@@ -34,12 +34,11 @@ User.init(
         len: [4]
       }
     }, 
-    favorite_plants: {
+    favorites_id: {
       type: DataTypes.INTEGER,
-      allowNull: true,
       references: {
-        model: 'plants',
-        key: 'id'
+        model: 'favorites',
+        key: 'favorite_id'
       }
     },
   },

@@ -1,14 +1,11 @@
 // import all models
 const Comment = require('./Comment');
 const User = require('./User');
-const Plants = require('./Plants')
+const Plants = require('./Plants');
+const Favorites = require('./Favorites');
 
 // create associations
 User.hasMany(Comment, {
-    foreignKey: 'user_id'
-});
-
-User.hasMany(Plants, {
     foreignKey: 'user_id'
 });
 
@@ -22,4 +19,24 @@ Plants.hasMany(Comment, {
     onDelete: 'CASCADE'
 });
 
-module.exports = { User, Comment, Plants };
+User.hasOne(Favorites, {
+    foreignKey: 'user_id'
+});
+
+Favorites.belongsTo(User, {
+    foreignKey: 'favorites_id' 
+});
+
+Plants.belongsToMany(User, {
+    through: Favorites,
+    as: 'users',
+    foreignKey: 'favorite_id'
+})
+
+User.belongsToMany(Plants, {
+    through: Favorites,
+    as: 'favorite_plants',
+    foreignKey: 'favorite_id'
+})
+
+module.exports = { User, Comment, Plants, Favorites };

@@ -2,7 +2,7 @@
   <div>
     <h1 class="text-center fw-bolder mt-5">Here Are The Perfect Plants For You!</h1>
   </div>
-  <div class="row m-5 px-3 justify-content-evenly">
+  <div class="results row m-5 px-3 justify-content-evenly">
     {{#each results as |plant| }}
     <div class="card col-3 mb-5" id="plantCards" style="width: 25rem;">
       <div class="card-body text-center">
@@ -20,7 +20,7 @@
             {{plant.description}}
           </div>
           </p>
-          <button id="savePlant" type="button" class="btn btn-success">Save This Plant</button>
+          <button id="{{plant.id}}" type="button" class="save-plant btn btn-success">Save This Plant</button>
         </div>
       </div>
     </div>
