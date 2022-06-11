@@ -1,18 +1,42 @@
-<nav class="navbar navbar-light">
-  <div class="nav-left">
-    <img src="/images/name-logo.png" alt="Logo" class="logo-img" />
-  </div>
-  <div class="nav-right pe-5">
-    {{#if loggedIn}}
-    <a href="/dashboard"><button type="button" class="btn btn-success me-3">Dashboard</button></a>
-    <a href="/"><button id="logout" type="button" class="btn btn-outline-success btn-light">Logout</button></a>
+<div class="m-4">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <img src="/images/name-logo.png" alt="Logo" class="logo-img" />
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto">
+          {{#if loggedIn}}
+            <a href="/dashboard"><button
+                type="button"
+                class="btn btn-success me-3"
+              >Dashboard</button></a>
+            <a href="/"><button
+                id="logout"
+                type="button"
+                class="btn btn-outline-success btn-light"
+              >Logout</button></a>
 
-
-    {{else}}
-    <a href="/login"><button id="login" type="button" class="btn btn-success me-3">Login</button></a>
-    <a href="/sign-up"><button id="login" type="button" class="btn btn-outline-success btn-light">Sign Up</button></a>
-    {{/if}}
-  </div>
-</nav>
-
-<script src="/js/logout.js"></script>
+          {{else}}
+            <a href="/login"><button
+                id="login"
+                type="button"
+                class="btn btn-success me-3"
+              >Login</button></a>
+            <a href="/sign-up"><button
+                id="login"
+                type="button"
+                class="btn btn-outline-success btn-light"
+              >Sign Up</button></a>
+          {{/if}}
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
