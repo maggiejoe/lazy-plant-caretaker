@@ -26,12 +26,12 @@ p {
 }
 
 .logo-img {
-  height: 200; 
+  height: 200;
   width: 500;
 }
 
 footer {
-  background-color: #E0E4D4;
+  background-color: #e0e4d4;
 }
 
 .copyright {
@@ -50,7 +50,6 @@ footer {
 
 /* ------------------------------    HOMEPAGE    ---------------------------------*/
 
-
 /* CAll TO ACTION SECTION */
 
 .callAction {
@@ -67,10 +66,20 @@ footer {
 
 /* ------------------------------    RESULTS    ---------------------------------*/
 
-
 /* TIPS SECTION */
 
 .card-img-top {
   height: 250px;
 }
 
+/* ------------------------------    MEDIA QUERY    ---------------------------------*/
+
+@media screen and (max-width: 768px) {
+  div.form-img-holder {
+    display: none;
+  }
+
+  div.login-img {
+    display: none;
+  }
+}
