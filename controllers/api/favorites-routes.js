@@ -52,7 +52,7 @@ router.get('/user/:id', (req, res) => {
             }
         ]
     })
-        .then(userData => {
+    .then(userData => {
             if (!userData) {
                 res.status(404).json({ message: 'Could not find an user with this id' })
                 return
@@ -66,26 +66,44 @@ router.get('/user/:id', (req, res) => {
 });
 
 // this route will add the favorite plant ID to the list of favorites for a given user ID
-router.put('/:userId/:plantId', (req, res) => {
-    const favoriteArray = Favorites.user_id;
-    Favorites.update(
-        {
-            // Can't get this to work. We need to 'append' the plant ID number to the 'array' of favorite_plants
-            favorite_plants: favoriteArray.push(req.params.plantId)
+router.put('/update/:userId/:plantId', (req, res) => {
+    User.findOne({
+        where: {
+            user_id: req.params.userId
         },
-        {
-            where: {
-                user_id: req.params.userId
+        attributes: ['user_id', 'email'],
+        include: [
+            {
+                model: Plants,
+                through: Favorites,
+                as: 'favorite_plants'
             }
-        }
-    )
+        ]
+    })
+    .then(userData => {
+        // console.log(userData);
+        const favoriteArray = userData.favorite_plants;
+        console.log(typeof userData.favorite_plants);
+        Favorites.update(
+            {
+                // Can't get this to work. We need to 'append' the plant ID number to the 'array' of favorite_plants
+                favorite_plants: favoriteArray.push("New favorite!")
+            },
+            {
+                where: {
+                    user_id: userData.user_id
+                }
+            }
+        )
         .then(userData => {
+            console.log(userData);
             if (!userData) {
                 res.status(404).json({ message: 'Could not find matching user.' })
                 return;
             }
             res.json(userData)
         })
+    })
         .catch(err => {
             console.log(err)
             res.status(500).json(err)
