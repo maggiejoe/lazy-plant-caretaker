@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Plants, User, Comment, Favorites } = require('../../models');
+const { Plants, User, Comment } = require('../../models');
 
 // get all users
 router.get('/', (req, res) => {
@@ -33,16 +33,16 @@ router.get('/query', (req, res) => {
   });
 })
 
-router.put('/favorite/: userId -: plantId', (req, res) => {
+// router.put('/favorite/: userId -: plantId', (req, res) => {
   // used to add plant to the list of favorites for given user
-  User.findOne({
-    where: {
-      user_id: req.params.userId
-    }
-  })
+  // User.findOne({
+  //   where: {
+  //     user_id: req.params.userId
+  //   }
+  // })
   // .then
   // should we do an update to the plants model to add user id as a foreign key?
-});
+// });
 
 router.get('/:id', (req, res) => {
   Plants.findOne({
