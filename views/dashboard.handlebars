@@ -1,18 +1,13 @@
-<section class="container">
-  <div class="row mt-5 justify-content-between">
-    <div class="col-md-6 text-center">
+<section class="container-fluid">
+  <div class="row mt-5 justify-content-between text-center">
+    <div class="col-xs-12 col-lg-6 text-center">
       <h1 class="pb-3 fw-bolder">Find Your Plant!</h1>
       <p>Use the form below to find out what plant is the best for you.. Don't
         worry, we won't judge you!
       </p>
       <form>
         <div class="form-group p-4">
-          <select
-            id="sunExposureOptions"
-            class="form-select"
-            aria-label="Default select example"
-            required
-          >
+          <select id="sunExposureOptions" class="form-select" aria-label="Default select example" required>
             <option selected>What type of sun exposure do you have?</option>
             <option name="sun_exposure" value="Low Light">Low Light</option>
             <option name="sun_exposure" value="Bright Indirect Light">Bright
@@ -21,12 +16,7 @@
           </select>
         </div>
         <div class="form-group px-4 pb-4">
-          <select
-            id="careLevelOptions"
-            class="form-select"
-            aria-label="Default select example"
-            required
-          >
+          <select id="careLevelOptions" class="form-select" aria-label="Default select example" required>
             <option selected>What is you laziness level?</option>
             <option name="care_level" value="Very Lazy">Very Lazy</option>
             <option name="care_level" value="Somewhat Lazy">Somewhat Lazy</option>
@@ -34,14 +24,10 @@
           </select>
         </div>
       </form>
-      <button
-        id="show-results"
-        type="submit"
-        class="btn btn-lg btn-success"
-      >Show Me The Plants!</button>
+      <button id="show-results" type="submit" class="btn btn-lg btn-success">Show Me The Plants!</button>
     </div>
-    <div class="col-md-6 form-img-holder">
-      <img class="form-img" src="/images/dashboard-plants.jpg" alt="" />
+    <div class="mt-5 col-xs-12 col-lg-6 form-img-holder">
+      <img class="form-img img-fluid" src="/images/dashboard-plants.jpg" alt="" />
     </div>
   </div>
 </section>
@@ -50,47 +36,37 @@
   <div class="container my-5">
     <h1 class="pt-5 mt-5 fw-bolder border-top border-light border-2">Looking For
       Tips? Check These Out</h1>
-    <div class="row justify-content-between mt-5">
-      <div class="card col-md-3 p-0">
-        <img
-          class="card-img-top"
-          src="/images/woman-carrying-monstera.jpg"
-          alt="Card image cap"
-        />
+    <div class="row no-gutter justify-content-between mt-5">
+      <div class="card col-xs-12 col-lg-3 mb-3 p-0">
+        <div class="d-none d-lg-block">
+          <img class="card-img-top" src="/images/woman-carrying-monstera.jpg" alt="Card image cap" />
+        </div>
         <div class="card-body">
           <h5 class="card-title">7 Of The Easiest Houseplants To Grow In Any
             Space</h5>
           <p class="card-text">Are you interested in getting started with indoor
             plants but aren’t sure where to start?</p>
-          <a
-            href="https://bloomscape.com/plant-care/7-of-the-easiest-houseplants-to-grow-in-any-space/"
-            class="btn btn-success"
-          >Read More</a>
+          <a href="https://bloomscape.com/plant-care/7-of-the-easiest-houseplants-to-grow-in-any-space/"
+            class="btn btn-success">Read More</a>
         </div>
       </div>
-      <div class="card col-md-3 p-0">
-        <img
-          class="card-img-top"
-          src="/images/front-porch-plant-styling.jpg"
-          alt="Card image cap"
-        />
+      <div class="card col-xs-12 col-lg-3 mb-3 p-0">
+        <div class="d-none d-lg-block">
+          <img class="card-img-top" src="/images/front-porch-plant-styling.jpg" alt="Card image cap" />
+        </div>
         <div class="card-body">
           <h5 class="card-title">What To Consider Before Moving Your Indoor
             Plants Outside For The Summer</h5>
           <p class="card-text">You aren’t the only one who loves the balmy temps
             and sunny days of summer weather—your plants do, too! The Grow-How™</p>
-          <a
-            href="https://bloomscape.com/plant-care/moving-your-indoor-plants-outside-for-the-summer/"
-            class="btn btn-success"
-          >Read More</a>
+          <a href="https://bloomscape.com/plant-care/moving-your-indoor-plants-outside-for-the-summer/"
+            class="btn btn-success">Read More</a>
         </div>
       </div>
-      <div class="card col-md-3 p-0">
-        <img
-          class="card-img-top"
-          src="/images/watering-plant.jpg"
-          alt="Card image cap"
-        />
+      <div class="card col-xs-12 col-lg-3 mb-3 p-0">
+        <div class="d-none d-lg-block">
+          <img class="card-img-top" src="/images/watering-plant.jpg" alt="Card image cap" />
+        </div>
         <div class="card-body">
           <h5 class="card-title">How to Fertilize Your Plants</h5>
           <p class="card-text">Fertilize your indoor plants in the spring and

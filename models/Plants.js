@@ -35,14 +35,14 @@ Plants.init(
         image: {
             type: DataTypes.STRING,
             allowNull: false
-        }, 
-        favorites_id: {
-            type: DataTypes.INTEGER,
-            references: {
-                model: 'favorites',
-                key: 'favorite_id'
-            }
-        },
+        }
+        // favorites_id: {
+        //     type: DataTypes.INTEGER,
+        //     references: {
+        //         model: 'favorites',
+        //         key: 'favorite_id'
+        //     }
+        // },
     },
     {
         sequelize,

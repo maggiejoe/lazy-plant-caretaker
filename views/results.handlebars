@@ -4,7 +4,7 @@
   </div>
   <div class="results row m-5 px-3 justify-content-evenly">
     {{#each results as |plant|}}
-      <div class="card col-md3 mb-5" id="plantCards" style="width: 25rem;">
+      <div class="card col-xs-12 col-lg-3 mb-5" id="plantCards" style="width: 25rem;">
         <div class="card-body text-center">
           <h4 class="card-title pb-2 fw-bold">{{plant.plant_name}}</h4>
           <img
@@ -25,11 +25,12 @@
                 {{plant.description}}
               </div>
             </p>
-            <button
+            {{!-- For future development when we would like to add a favorites section to the dashboard --}}
+            {{!-- <button
               id="{{plant.id}}"
               type="button"
               class="save-plant btn btn-success"
-            >Save This Plant</button>
+            >Save This Plant</button> --}}
           </div>
         </div>
       </div>

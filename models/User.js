@@ -34,13 +34,13 @@ User.init(
         len: [4]
       }
     }, 
-    favorites_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'favorites',
-        key: 'favorite_id'
-      }
-    },
+    // favorites_id: {
+    //   type: DataTypes.INTEGER,
+    //   references: {
+    //     model: 'favorites',
+    //     key: 'favorite_id'
+    //   }
+    // },
   },
   {
     hooks: {
