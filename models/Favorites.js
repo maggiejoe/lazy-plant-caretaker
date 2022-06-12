@@ -12,10 +12,10 @@
 //             primaryKey: true,
 //             autoIncrement: true
 //         },
-//         // favorite_plants: {
-//         //     type: DataTypes.STRING,
-//         //     defaultValue: '[]'
-//         // },
+        // favorite_plants: {
+        //     type: DataTypes.STRING,
+        //     defaultValue: '[]'
+        // },
 //         user_id: {
 //             type: DataTypes.INTEGER,
 //             references: {
