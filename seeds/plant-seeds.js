@@ -358,7 +358,7 @@ const plantData = [
         care_level: 'Not Lazy At All',
         sun_exposure: 'Direct Light',
         watering_schedule: 'Monthly',
-        description: 'description about  Barrel Cacti',
+        description: "Barrel cacti grow in short tubular shapes and have ribs with spikes throughout it's surface. Because it's very fleshy on the inside, it doesn't require much water to grow. In the right conditions, it can bloom yellow or orange flowers at the beginning of spring. A fun fact about this cacti is that it can live to be over 100 years old!",
         image: 'https://garden.org/pics/2017-02-28/RuuddeBlock/575e34-250.jpg'
     },
     {
@@ -366,7 +366,7 @@ const plantData = [
         care_level: 'Somewhat Lazy',
         sun_exposure: 'Low Light',
         watering_schedule: 'Bi-Weekly',
-        description: 'description about African Milk Tree',
+        description: "The african milk tree, of 'euphorbia trigona' grows upwards with small oval leaves and thorns. In most cases, the leaves are green but there is a less common variety that has bright red leaves. Because it's apart of the succulent family, it needs to have good drainage to get rid of any excess water. Also because it's apart of the succulent family, it doesn't need much water to survive and prefers the soil to dry out completely inbetween waterings.",
         image: 'https://garden.org/pics/2014-02-13/Paul2032/e228fc-250.jpg'
     },
     {
@@ -374,7 +374,7 @@ const plantData = [
         care_level: 'Very Lazy',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Bi-Weekly',
-        description: 'description about Jade Plants',
+        description: "Jade plants, or 'crassula ovata' are one of the easier succulent types to grow. they have thick fleshy leaves that grow off of a brown trunk. As long as they have well draining soil and bright indirect light, they will continue to grow through the spring/summer season. Like other succulents, drying out completely inbetween waterings will ensure you're not giving your plant too much water.",
         image: 'https://garden.org/pics/2017-12-05/Baja_Costero/ddf1a9-250.jpg'
     },
     {
@@ -382,7 +382,7 @@ const plantData = [
         care_level: 'Very Lazy',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about Dragon Trees',
+        description: "The 'dracaena marginata', or more commonly known as the dragon tree is a beautiful  plants with thin green leaves with red edges. Like the snake plant, it is very drought tolerant and is nearly indestructible. While it can handle long periods of time inbetween waterings, it's recommended to water once you notice the soil has dried out completely. This plant also prefers bright indirect light. Bright light would cause the leaves to burn.",
         image: 'https://garden.org/pics/2018-12-05/tofitropic/64eb54-250.jpg'
     },
     {
@@ -390,15 +390,15 @@ const plantData = [
         care_level: 'Very Lazy',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about Anthuriums',
+        description: "The anthurium, also called the flamingo plant, has beautiful flowers that are typically red or white. Its flowers share the same waxy feeling as it's leaves, giving it a unique appearance from normal flowering plants. It prefers bright indirect light and well draining soil to grow healthy and strong. Watering when the soil is nearly dried out will ensure you're not over watering your beautiful flowering plant.",
         image: 'https://garden.org/pics/2012-12-31/Paul2032/e94a29-250.jpg'
     },
     {
         plant_name: 'Donkeys Tail',
         care_level: 'Very Lazy',
         sun_exposure: 'Direct Light',
-        watering_schedule: 'Bi-Weekly',
-        description: 'description about  Donkeys Tail',
+        watering_schedule: 'Monthly',
+        description: "The 'sedum morganianum', or donkey's tail is a popular trailing succulent with blue green leaves. It is also apart of the succulent family meaning it requires only bright light and very little water to grow. Like most succulents, you can give this plant too much water so be sure to let the soil dry out completely inbetween waterings in addition to a well draining pot to get rid of excess water.",
         image: 'https://garden.org/pics/2014-04-02/Paul2032/90c698-250.jpg'
     }
 ];
