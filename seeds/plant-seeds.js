@@ -254,7 +254,7 @@ const plantData = [
         care_level: 'Very Lazy',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about Maidenhair Ferns',
+        description: "The 'adiantum pedatum', or more commonly known as the maidenhair fern is apart of the hundreds of different varieties of ferns. It gets its name from the long thin black stem that supports its small delicate light green leaves. They're more on the heardy side, meaning they don't need a lot of humidity. Be sure to give them bright indirect light to promote new growth through the growing season!",
         image: 'https://garden.org/pics/2018-01-21/HemNorth/0f912e-250.jpg'
     },
     {
@@ -262,23 +262,23 @@ const plantData = [
         care_level: 'Very Lazy',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about Christmas Cactus',
+        description: "The 'schlumbergera truncata' or christmas cactus gets its unique name from the beautiful pink or white flowers it blooms during the winter months, typically around christmas time. The plant recognizes it's receiving less light and produces big beautiful flowers that last around a week before they fall off. When they're not blooming they look like a succulent with their flat thick waxy leaves. When it comes to sunlight, bright indirect light is your best bet while also not letting the soil completely dry out inbetween waterings.",
         image: 'https://garden.org/pics/2012-11-05/Paul2032/87b1f2-250.jpg'
     },
     {
-        plant_name: 'Dracaena Corn Plant',
+        plant_name: 'Corn Plant',
         care_level: 'Somewhat Lazy',
         sun_exposure: 'Bright Indirect Light',
-        watering_schedule: 'Weekly',
-        description: 'description about Dracaena Corn Plants',
+        watering_schedule: 'Bi-Weekly',
+        description: "The corn plant, or 'dracaena Fragrans' is a slow growing plant that's thick stem produces long thin leaves, giving it the appearance of a corn stalk. To continue their slow growth, they prefer bright indirect light but can tolerate low light. Depending on the type of light given, they should be watered once every 1-2 weeks depending on how wet the soil is.",
         image: 'https://garden.org/pics/2014-01-28/Paul2032/5a97f4-250.jpg'
     },
     {
         plant_name: 'Majesty Palm',
         care_level: 'Very Lazy',
-        sun_exposure: 'Low Light',
+        sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about Majesty Palms',
+        description: "The majesty palm, as you can guess is apart of the many different varieties of palms. It has long think feathery fronds that come off each stem. It preferes bright indirect light and during the summer months likes fertelizer to stimulate faster growth. Make sure it has well draining soil and has time to dry out halfway inbetween waterings. Their leaves are very delicate and can easily brown if left unwatered.",
         image: 'https://garden.org/pics/2013-03-12/Jookieblue/55ed5c-250.jpg'
     },
     {
@@ -286,7 +286,7 @@ const plantData = [
         care_level: 'Very Lazy',
         sun_exposure: 'Low Light',
         watering_schedule: 'Weekly',
-        description: 'description about Rattlesnake Plants',
+        description: "The rattlesnake plant is one of the many 'calathea' varieties. It has long spotted and striped leaves resembling the skin of a rattlesnake with a dark purple color to the underside of the leaf. Like most calatheas, it prefers bright indirect light and to nearly dry out inbetween waterings.",
         image: 'https://garden.org/pics/2016-08-26/jmorth/8160a4-250.jpg'
     },
     {
@@ -294,7 +294,7 @@ const plantData = [
         care_level: 'Not Lazy At All!',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about Green Velvet Alocasia',
+        description: "The 'alocasia Frydek' is an arrowhead shaped leaf with dark green color and white veins throughout. It has a velvety surface, which is where it's name comes from. Like most alocacias, they prefer bright indirect light to simulate new grow and cannot dry out inbetween waterings, as their leaves will droop significantly if left unwatered. They also prefer more humidity than most indoor plants, making them more difficult to care for and are typically found being care fore by more experienced house plant parents.",
         image: 'https://plantingman.com/wp-content/uploads/2018/09/Green-Velvet-Alocasia-Indoor-House-Plant.jpg'
     },
     {
@@ -302,7 +302,7 @@ const plantData = [
         care_level: 'Very Lazy',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about Elephant Ears',
+        description: "The elephant ear is a beautiful perennial with large green leaves in the shape of a heart. It is great as an indoor plant but can be taken outside to get full advantage of all that wonderful sunlight. If you brought the elephant ear outside, you'd likely notice it would start to produce more leaves quicker as it likes the heat and bright indirect light. Be sure to water weekly so the soil doesn't dry out.",
         image: 'https://garden.org/pics/2016-11-28/eclayne/7e1ce5-250.jpg'
     },
     {
@@ -310,7 +310,7 @@ const plantData = [
         care_level: 'Very Lazy',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about Crotons',
+        description: "The 'codiaeum variegatum', or more commonly known as the croton is a bush like plant with long multi-colored leaves. They can be planted outdoors in tropical climates but are often found as indoor house plants in the northern hemisphere. The are heardy plants that can withstand low light conditions but prefer bright indirect light to stimulate new growth.",
         image: 'https://garden.org/pics/2014-03-23/jmorth/397a04-250.jpg'
     },
     {
@@ -318,15 +318,15 @@ const plantData = [
         care_level: 'Very Lazy',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about Parlor Palms',
+        description: "The parlor palm, as you guessed is another palm variation. It has arching green leaves that come from one leaflet. Indoors, they typically grow around 4ft tall and make a great addition to any space. In the summer months you can bring this beautiful plant outside to add some life to your outdoor living space. Like most palms, their leaves are delicate so be sure to not place them in direct sunlight as their leaves will burn. When it comes to watering, they don't like to sit in water but also do not like to dry out completely inbetween waterings. A quick lift of the pot will indicate how much water is left and if you should water or leave it for a couple days.",
         image: 'https://garden.org/pics/2014-07-17/Plantomaniac08/ba4566-250.jpg'
     },
     {
-        plant_name: 'Wandering Jew',
+        plant_name: 'Inch Plant',
         care_level: 'Somewhat Lazy',
         sun_exposure: 'Bright Indirect Light',
         watering_schedule: 'Weekly',
-        description: 'description about Wandering Jew',
+        description: "The 'tradescantia zebrina', or inch plant is a beautiful trailing plant with striped pink to purple leaves. It comes is several different varieties and makes a great addition to any more. All they need is bright indirect light and to let them dry out inbetween waterings.",
         image: 'https://plantingman.com/wp-content/uploads/2018/03/Wandering-Jew-House-Plants-768x576.jpg'
     },
     {
@@ -334,7 +334,7 @@ const plantData = [
         care_level: 'Somewhat Lazy',
         sun_exposure: 'Direct Light',
         watering_schedule: 'Monthly',
-        description: 'description about Bunny Ear Cacti',
+        description: "The bunny ear cactus, or also known as 'angel wing cactus' has thick pads for leaves that grow in pairs with fuzzy bristles on the outside, resembling ears of a rabbit. Like most cactus they need as much bright light as possible, as their native habitat is the desert. They store a lot of their water in their leaves and they're used to going without water for long periods of time. Be sure to let the soil completely dry out before watering as they are very prone to root rot. They need a well draining pot so they don't sit in water for too long.",
         image: 'https://garden.org/pics/2021-07-15/Kaktus/7ec8a1-250.jpg'
     },
     {
@@ -342,7 +342,7 @@ const plantData = [
         care_level: 'Somewhat Lazy',
         sun_exposure: 'Direct Light',
         watering_schedule: 'Monthly',
-        description: 'description about Balloon Cacti',
+        description: "The balloon cactus, or more technically named 'parodia magnifica', is a round balloon shaped cactus with with golden bristly spines growing on its ribs. In the right conditions, it can produce a beautiful flower at the top center of the plant. Like most cactus they need as much bright light as possible, as their native habitat is the desert. They store a lot of their water in their leaves and they're used to going without water for long periods of time. Be sure to let the soil completely dry out before watering as they are very prone to root rot. They need a well draining pot so they don't sit in water for too long.",
         image: 'https://garden.org/pics/2021-11-20/syzone8aUK/c17d02-250.jpg'
     },
     {
@@ -350,7 +350,7 @@ const plantData = [
         care_level: 'Somewhat Lazy',
         sun_exposure: 'Direct Light',
         watering_schedule: 'Monthly',
-        description: 'description about  Lady Finger Cacti',
+        description: "The 'mammillaria elongata', or more easily pronounced lady finger cactus, is known for its long narrow stems that resemble fingers. They grow in clustered groups with spiky bristles covering their surface. Like most cactus they need as much bright light as possible, as their native habitat is the desert. They store a lot of their water in their leaves and they're used to going without water for long periods of time. Be sure to let the soil completely dry out before watering as they are very prone to root rot. They need a well draining pot so they don't sit in water for too long.",
         image: 'https://garden.org/pics/2019-01-26/Ivan_N_Tx/425a82-250.jpg'
     },
     {
