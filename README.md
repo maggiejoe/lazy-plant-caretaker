@@ -2,7 +2,7 @@
 ### We will help you take care of your plants!
 
 
-![Lazy-Plant-Caretaker-Logo](./public/assets/images/logo)
+![Lazy-Plant-Caretaker-Logo](./public/assets/images/full-logo.png)
 
 
 ## Table of Contents
