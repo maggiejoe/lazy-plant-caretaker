@@ -9,7 +9,7 @@
 1. [Description](#description)
 2. [Motivation](#motivation)
 3. [Challenges](#challenges)
-4. [Technologies](#technologies)
+4. [Technologies Applied](#technologies)
 5. [Future Development](#future)
 6. [Contributors](#contributors)
 7. [Links](#links)
@@ -34,7 +34,7 @@ One of our biggest challenges was figuring out how to display the plants on the 
 Another challenge we had was getting the sign-up and logout process working properly. Once we were able to get users to add to the user seeds, it was easier to write the javascript files to move the user along once they logged in, signed up, or logged out of the application.
 
 <a name='technologies'></a>
-## Technologies applied
+## Technologies Applied
 
 * JavaScript
 * NodeJS
@@ -73,4 +73,5 @@ Going forward, we have several ideas on how this application could grow to be mo
 ## Links
 * **[Repository](https://github.com/project02group12/lazy-plant-caretaker)**
 * **[Heroku Live App](https://lazy-plant-caretaker.herokuapp.com/)**
+
 # [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
