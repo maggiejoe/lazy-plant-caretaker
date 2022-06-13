@@ -10,4 +10,7 @@ async function logout() {
     }
   }
   
+var logoutButton = document.querySelector('#logout')
+if (logoutButton) {
   document.querySelector('#logout').addEventListener('click', logout);
+};

@@ -87,17 +87,15 @@ router.post('/login', (req, res) => {
   });
 });
 
+// Logout
 router.post('/logout', (req, res) => {
-  console.log('getting into logout')
+  // When the user logs out, destroy the session
   if (req.session.loggedIn) {
     req.session.destroy(() => {
-      res
-        .status(204)
-        .json({ message: 'You are now logged out!' })
-        .end();
+      res.status(204).end();
     });
   } else {
-    res.status(400).end();
+    res.status(404).end();
   }
 });
 
