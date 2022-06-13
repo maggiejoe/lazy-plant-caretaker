@@ -1,7 +1,7 @@
 const router = require('express').Router();
 // const sequelize = require('../config/connection');
 const { Plants, User, Comment } = require('../models');
-const plantData = require('../public/js/search-results');
+// const plantData = require('../public/js/search-results');
 
 router.get('/', async (req, res) => {
   res.render('homepage', { loggedIn: req.session.loggedIn });
